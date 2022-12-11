@@ -1,0 +1,11 @@
+# package directories
+node_modules
+jspm_packages
+
+node_modules/amplify-appsync-simulator/lib/data-loader/dynamo-db/
+
+# Serverless directories
+.serverless
+
+# esbuild directories
+.esbuild

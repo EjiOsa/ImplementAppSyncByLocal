@@ -1,0 +1,19 @@
+
+#set($childIds= $util.defaultIfNull($ctx.source.childIds,[]))
+
+#set($ids = [])
+#foreach($id in $childIds)
+    $util.qr($ids.add({
+        "childId": $util.dynamodb.toDynamoDB($id)
+    }))
+#end
+
+{
+  "version" : "2018-05-29",
+  "operation": "BatchGetItem",
+  "tables": {
+    "Child": {
+      "keys": $util.toJson($ids)
+    }
+  }
+}

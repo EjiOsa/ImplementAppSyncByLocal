@@ -1,0 +1,17 @@
+[
+  {
+    "childId": "C001",
+    "name": "子 Item001",
+    "description": "子 Item001 です。取得される想定です。"
+  },
+  {
+    "childId": "C002",
+    "name": "子 Item002",
+    "description": "子 Item002 です。取得されない想定です。 "
+  },
+  {
+    "childId": "C003",
+    "name": "子 Item003",
+    "description": "子 Item003 です。取得される想定です。"
+  }
+]

@@ -1,0 +1,12 @@
+type Parent {
+  parentId: String!
+  name: String
+  description: String
+  childIds: [String]
+}
+
+type Child {
+  childId: String!
+  name: String
+  description: String
+}

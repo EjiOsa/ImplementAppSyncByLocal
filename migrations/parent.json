@@ -1,0 +1,8 @@
+[
+  {
+    "parentId": "P001",
+    "name": "親 Item",
+    "description": "子 Item001 と 003 を保持しています 。",
+    "childIds": ["C001", "C003"]
+  }
+]
