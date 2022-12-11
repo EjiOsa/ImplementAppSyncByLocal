@@ -1,17 +1,17 @@
-# [team DELTA Advent Calendar 2022](https://qiita.com/advent-calendar/2022/delta) 18 日目の記事のリポジトリです。
+# [team DELTA Advent Calendar 2022](https://qiita.com/advent-calendar/2022/delta) 18 日目の記事のリポジトリ
 
 
 # `serverless.ts`と`schema.graphql`について
 
-`serverless_XXX.ts`のように複数の`serverless.ts`がありますが、こちらは記事内での修正履歴のものです。
-[XXX_Lambda.XXX]
-これは山田さんの記事を再現した時点の履歴になります。
+`serverless_XXX.ts`のように複数の`serverless.ts`がありますが、こちらは記事内での修正履歴のものです  
+[XXX_Lambda.XXX]  
+これは山田さんの記事を再現した時点の履歴
 
-[XXX_DynamoDB.XXX]
-これはDynamoDB接続はしましたが、データが何も入っていない時点の履歴になります。
+[XXX_DynamoDB.XXX]  
+これはDynamoDB接続はしましたが、データが何も入っていない時点の履歴
 
-[XXX_GetItem.XXX]
-これはGetItemのみ実装した時点の履歴になります。
+[XXX_GetItem.XXX]  
+これはGetItemのみ実装した時点の履歴
 
 
 # Serverless - AWS Node.js Typescript
