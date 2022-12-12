@@ -69,26 +69,6 @@ const serverlessConfiguration: AWS = {
         },
       ],
       dataSources: [
-        {
-          type: "AMAZON_DYNAMODB",
-          name: "dataSourceParent",
-          config: {
-            tableName: { Ref: "Parent" },
-            serviceRoleArn: {
-              Fn: ":GetAtt: [AppSyncDynamoDBServiceRole, Arn]",
-            },
-          },
-        },
-        {
-          type: "AMAZON_DYNAMODB",
-          name: "dataSourceChild",
-          config: {
-            tableName: { Ref: "Child" },
-            serviceRoleArn: {
-              Fn: ":GetAtt: [AppSyncDynamoDBServiceRole, Arn]",
-            },
-          },
-        },
       ],
     },
   },
